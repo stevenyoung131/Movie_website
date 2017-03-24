@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+# These next lines assign a variable to each instance of the movies.
+
 toy_story = media.Movie('Toy Story',
                         'A story of a boy and his toys that come to life',
                         'http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg',  # noqa
@@ -42,6 +44,8 @@ star_wars = media.Movie('Star Wars: Episode IV A New Hope',
                         'https://www.youtube.com/watch?v=9gvqpFbRKtQ',
                         'George Lucas',
                         'PG')
+# We then create an array containing the variables assigned to each movie, and
+# assign that array to the variable 'movies'
 
 movies = [toy_story, avatar, from_paris, son_in_law, catch_me_if_you_can, star_wars]  # noqa
 
