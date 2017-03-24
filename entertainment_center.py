@@ -45,7 +45,7 @@ star_wars = media.Movie('Star Wars: Episode IV A New Hope',
 
 movies = [toy_story, avatar, from_paris, son_in_law, catch_me_if_you_can, star_wars]  # noqa
 
-#This open_movies_page method will create the file fresh_tomatoes.html, or
-#overwrite an exisiting file if necessary.
-#This file will display all movie data as formatted in fresh_tomatoes.py
+# This open_movies_page method will create the file fresh_tomatoes.html, or
+# overwrite an exisiting file if necessary.
+# This file will display all movie data as formatted in fresh_tomatoes.py
 fresh_tomatoes.open_movies_page(movies)
